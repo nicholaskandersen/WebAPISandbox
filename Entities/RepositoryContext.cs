@@ -12,5 +12,6 @@ namespace Entities
 
         public DbSet<Account> Account { get; set; }
         public DbSet<ToDo> ToDo { get; set; }
+        public DbSet<WorkOut> WorkOut { get; set; }
     }
 }
